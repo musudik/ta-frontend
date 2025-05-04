@@ -1,9 +1,8 @@
 import axios from 'axios';
 import { TaxForm, TaxFormResponse } from '../types/taxForm';
 
-const API_URL = import.meta.env.VITE_API_URL 
-  ? `${import.meta.env.VITE_API_URL}/tax-forms` 
-  : '/api/tax-forms';
+// Use '/api/tax-forms' without domain to utilize the proxy
+const API_URL = '/api/tax-forms';
 
 // Helper to get the auth token
 const getAuthToken = () => {

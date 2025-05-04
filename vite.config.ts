@@ -18,7 +18,8 @@ export default defineConfig({
       '/api': {
         target: 'https://tax-adviser-test.replit.app',
         changeOrigin: true,
-        secure: true
+        secure: true,
+        rewrite: (path) => path.replace(/^\/api/, '/api')
       }
     }
   },
