@@ -1,0 +1,563 @@
+{
+  "formTitle": "Modulo di Dichiarazione dei Redditi",
+  "validation": {
+    "required": "Questo campo è obbligatorio",
+    "invalidEmail": "Inserisci un indirizzo email valido",
+    "invalidPhone": "Inserisci un numero di telefono valido",
+    "invalidDate": "Inserisci una data valida",
+    "invalidTaxId": "Inserisci un codice fiscale valido",
+    "invalidPostalCode": "Inserisci un CAP valido",
+    "selectionRequired": "Effettua una selezione"
+  },
+  "businessType": {
+    "freelance": "Libero Professionista",
+    "trade": "Commercio",
+    "agriculture": "Agricoltura",
+    "other": "Altro"
+  },
+  "maritalStatus": {
+    "single": "Single",
+    "married": "Matrimonio",
+    "divorced": "Divorziato",
+    "widowed": "Vedovo"
+  },
+  "addExpense": {
+    "title": "Aggiungi Spesa",
+    "description": "Descrizione",
+    "amount": "Importo",
+    "file": "Certificato Fiscale",
+    "fileUpload": "Carica File",
+    "type": "Tipo di Spesa",
+    "add": "Aggiungi",
+    "remove": "Rimuovi"
+  },
+  "countries": {
+    "afghan": "Afghano",
+    "albanian": "Albanese",
+    "algerian": "Algerino",
+    "american": "Americano",
+    "andorran": "Andorran", 
+    "angolan": "Angolano",
+    "antiguan_and_barbudan": "Antiguano e Barbudano",
+    "argentine": "Argentino",
+    "armenian": "Armeno",
+    "australian": "Australiano",
+    "austrian": "Austriaco",    
+    "azerbaijani": "Azerbaigiano",
+    "bahamian": "Bahamiano",
+    "bahraini": "Bahreiniano",
+    "bangladeshi": "Bangladesino",
+    "barbadian": "Barbadiano",
+    "belarusian": "Bielorussino",   
+    "belgian": "Belga",
+    "belizean": "Belizeano",
+    "beninese": "Beninese",
+    "bhutanese": "Bhutanese",
+    "bolivian": "Boliviano",
+    "bosnian": "Bosniaco",  
+    "botswanan": "Botswaniano",
+    "brazilian": "Brasileiro",
+    "british": "Britannico",
+    "bulgarian": "Bulgaro",
+    "burkinabe": "Burkinabè",
+    "burmese": "Birmano",   
+    "cambodian": "Cambogiano",
+    "cameroonian": "Camerunese",
+    "canadian": "Canadese",
+    "cape_verdean": "Capoverdiano",
+    "central_african": "Centroafricano",
+    "chadian": "Ciadiano",  
+    "chilean": "Cileano",
+    "chinese": "Cinese",
+    "colombian": "Colombiano",
+    "comorian": "Comoriano",
+    "congolese": "Congolese",
+    "costa_rican": "Costaricano", 
+    "croatian": "Croato",
+    "cuban": "Cubano",
+    "cypriot": "Cipriota",
+    "czech": "Ceco",
+    "danish": "Danese",
+    "djiboutian": "Djibutiano", 
+    "dominican": "Dominicano",
+    "dutch": "Olandese",
+    "east_timorese": "Timorese Orientale",
+    "ecuadorian": "Ecuadoriano",
+    "egyptian": "Egiziano",
+    "emirian": "Emiriano",  
+    "equatorial_guinean": "Guineano Equatoriale",
+    "eritrean": "Eritreo",
+    "estonian": "Estone",
+    "ethiopian": "Etiopiano",
+    "fijian": "Figiano",
+    "filipino": "Filippino",      
+    "finnish": "Finlandese",
+    "french": "Francese",
+    "gabonese": "Gabonese",
+    "gambian": "Gambiano",
+    "georgian": "Georgiano",
+    "german": "Tedesco",  
+    "ghanaian": "Ghaniano",
+    "greek": "Greco",
+    "grenadian": "Grenadino",
+    "guatemalan": "Guatemaliano",
+    "guinean": "Guineano",
+    "guyanese": "Guyanese", 
+    "haitian": "Haitiano",
+    "herzegovinian": "Herzegovino",
+    "honduran": "Honduregno",
+    "hungarian": "Ungherese",
+    "icelander": "Islandese",
+    "indian": "Indiano",    
+    "indonesian": "Indonesiano",
+    "iranian": "Iraniano",
+    "iraqi": "Iraqiano",
+    "irish": "Irlandese",
+    "israeli": "Israeliano",
+    "italian": "Italiano",    
+    "ivorian": "Ivorian",
+    "jamaican": "Giamaicano",
+    "japanese": "Giapponese",
+    "jordanian": "Giordano",
+    "kazakh": "Kazako",
+    "kenyan": "Keniano",  
+    "korean": "Coreano",
+    "kosovar": "Kosoviano",
+    "kuwaiti": "Kuwaitiano",
+    "kyrgyz": "Kirghiso",
+    "laotian": "Laotiano",
+    "latvian": "Lettone",   
+    "lebanese": "Libanese",
+    "liberian": "Liberiano",
+    "libyan": "Libico",
+    "liechtensteiner": "Liechtensteinero",
+    "lithuanian": "Lituano",
+    "luxembourger": "Lussemburghese", 
+    "macedonian": "Macedone",
+    "malagasy": "Malagasiano",
+    "malawian": "Malawiano",
+    "malaysian": "Malese",
+    "maldivian": "Maldive",
+    "malian": "Mali",   
+    "maltese": "Maltese",
+    "marshallese": "Marshallese",
+    "mauritanian": "Mauritaniano",
+    "mauritian": "Mauriziano",
+    "mexican": "Messicano",
+    "micronesian": "Micronesiani",        
+    "moldovan": "Moldavo",
+    "monacan": "Monaco",
+    "mongolian": "Mongolo",
+    "montenegrin": "Montenegrino",
+    "moroccan": "Marocco",
+    "mozambican": "Mozambicano",  
+    "namibian": "Namibiano",
+    "nauruan": "Nauruan",
+    "nepalese": "Nepalese",
+    "netherlander": "Olandese",
+    "new_zealander": "Nuovo Zelanda",
+    "nicaraguan": "Nicaraguano",  
+    "nigerien": "Nigeriano",
+    "north_korean": "Nordcoreano",
+    "norwegian": "Norvegese",
+    "omani": "Omaniano",
+    "pakistani": "Pakistani",
+    "palestinian": "Palestinese",   
+    "panamanian": "Panamense",      
+    "papua_new_guinean": "Papuano",
+    "paraguayan": "Paraguayano",
+    "peruvian": "Peruviano",
+    "philippine": "Filippino",
+    "pitcairn_island": "Isole Pitcairn",
+    "polish": "Polacco",
+    "portuguese": "Portoghese",
+    "qatari": "Qatari",
+    "romanian": "Rumeno",
+    "russian": "Russo",
+    "rwandan": "Ruandese",
+    "saint_lucian": "Sant'Luciano",   
+    "salvadoran": "Salvadoregno",
+    "samoan": "Samoano",
+    "sao_tomean": "Sao Tomeano",
+    "saudi": "Saudi",
+    "scottish": "Scottish",
+    "senegalese": "Senegalese",     
+    "serbian": "Serbo",
+    "seychellois": "Seychellois",
+    "sierra_leonean": "Sierra Leoneano",
+    "singaporean": "Singaporeano",
+    "slovak": "Slovacco",
+    "slovenian": "Sloveno", 
+    "somali": "Somalo",
+    "south_african": "Sud Africano",
+    "south_korean": "Sudcoreano",
+    "spanish": "Spagnolo",
+    "sri_lankan": "Sri Lankano",
+    "sudanese": "Sudanese",     
+    "surinamese": "Surinamese",
+    "swazi": "Swazi",
+    "swedish": "Svedese",
+    "swiss": "Svizzero",
+    "syrian": "Siriano",
+    "taiwanese": "Taiwanese",   
+    "tanzanian": "Tanzaniano",
+    "thai": "Thailandese",
+    "tongan": "Tongano",
+    "trinidadian_and_tobagoan": "Trinidadiano e Tobagoano",
+    "tunisian": "Tunisino",
+    "turkish": "Turco", 
+    "turkmen": "Turcomano",
+    "ugandan": "Ugandano",
+    "ukrainian": "Ucraino",
+    "uruguayan": "Uruguayano",
+    "uzbek": "Uzbeko",
+    "venezuelan": "Venezuelano",  
+    "vietnamese": "Vietnamita",
+    "yemeni": "Yemenita",
+    "zambian": "Zambiano",
+    "zimbabwean": "Zimbabwiano",
+    "other": "Altro"
+  },  
+  "taxForm": {
+    "title": "Modulo di Dichiarazione dei Redditi",
+    "taxYear": {
+      "title": "Anno Fiscale",
+      "description": "Seleziona l'anno per il quale vuoi presentare la dichiarazione dei redditi."
+    },
+    "personalInfo": {
+      "title": "Informazioni Personali", 
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "taxId": "Codice Fiscale",
+      "dateOfBirth": "Data di Nascita",
+      "maritalStatus": "Stato Civile",
+      "email": "Email",
+      "phone": "Telefono",
+      "address": {
+        "title": "Indirizzo",
+        "street": "Via",
+        "houseNumber": "Numero",
+        "postalCode": "CAP",
+        "city": "Città"
+      },
+      "foreignResidence": {
+        "title": "Residenza Estera",
+        "hasResidence": "Hai una residenza all'estero?",
+        "country": "Paese",
+        "otherCountry": "Altro Paese"
+      },
+      "spouse": {
+        "title": "Informazioni sul Coniuge",
+        "hasSpouse": "Sei sposato o in unione libera?",
+        "firstName": "Nome del Coniuge",
+        "lastName": "Cognome del Coniuge",
+        "dateOfBirth": "Data di Nascita del Coniuge",
+        "taxId": "Codice Fiscale del Coniuge",
+        "hasIncome": "Il coniuge ha un reddito proprio?",
+        "incomeType": "Tipo di Reddito",
+        "jointTaxation": "Vuoi scegliere la dichiarazione congiunta?"
+      },
+      "children": {
+        "title": "Informazioni sui Figli",
+        "hasChildren": "Hai figli?",
+        "childCount": "Numero di Figli",
+        "child": "Figlio",
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "dateOfBirth": "Data di Nascita",
+        "taxId": "Codice Fiscale",
+        "add": "Aggiungi Figlio",
+        "remove": "Rimuovi"
+      }
+    },
+    "incomeInfo": {
+      "employment": {
+        "title": "Informazioni sui Redditi",
+        "isEmployed": "Sei impiegato?",
+        "employer": "Datore di Lavoro",
+        "employmentIncome": "Reddito da Lavoro Dipendente",
+        "hasTaxCertificate": "Hai un certificato fiscale?",
+        "hasTravelSubsidy": "Ricevi un sussidio di viaggio?",
+        "travelDistance": "Distanza in km",
+        "taxCertificate": "Certificato Fiscale"
+      },
+      "business": {
+        "title": "Redditi da Lavoro Autonomo",
+        "isBusinessOwner": "Sei un lavoratore autonomo?",
+        "businessType": "Tipo di Lavoro Autonomo",
+        "businessEarnings": "Guadagni da Lavoro Autonomo",
+        "businessExpenses": "Spese per Lavoro Autonomo"
+      },
+      "foreignIncome": {
+        "title": "Redditi da Lavoro Autonomo all'Estero",
+        "hasForeignIncome": "Hai redditi da lavoro autonomo all'estero?",
+        "country": "Paese",
+        "typeOfIncome": "Tipo di reddito",
+        "totalAmountQuestion": "Importo totale dei redditi da lavoro autonomo all'estero",
+        "foreignTaxPaid": "Imposte Estere Pagate",
+        "certificateUpload": "Carica Certificato Fiscale"
+      },
+      "rentalIncome": { 
+        "title": "Redditi da Affitto",
+        "hasRentalProperty": "Hai una proprietà di affitto?",
+        "rentalIncome": "Redditi da Affitto",
+        "rentalCosts": "Spese per Affitto",
+        "rentalPropertyAddress": "Indirizzo della Proprietà di Affitto",
+        "street": "Via",
+        "houseNumber": "Numero",
+        "postalCode": "CAP",
+        "city": "Città" 
+      },
+      "investments": {
+        "title": "Redditi da Investimenti",
+        "hasStockIncome": "Hai redditi da azioni?",
+        "dividendEarnings": "Guadagni da Dividendi",
+        "hasStockSales": "Hai venduto azioni?",
+        "stockProfitLoss": "Guadagni o Perdite da Vendita di Azioni",
+        "hasBankCertificate": "Hai un certificato bancario?",
+        "capitalGains": "Plusvalenze",
+        "hasForeignStocks": "Possiedi azioni estere?",
+        "foreignTaxPaid": "Imposte Estere Pagate"
+      }
+    },
+    "expenses": {
+      "title": "Spese e Deduzioni",
+      "workRelatedExpenses": {
+        "title": "Spese Relate al Lavoro",
+        "commutation": {
+          "title": "Spese di Viaggio",
+          "hasCommutingExpenses": "Hai spese di viaggio?",
+          "workingDaysCount": "Numero di giorni lavorativi (230 Massimo)",
+          "route": {
+            "from": {
+              "street": "Via",
+              "houseNumber": "Numero",
+              "postalCode": "CAP",
+              "city": "Città"
+            },
+            "firstOfficeAddress": {
+              "street": "Via",
+              "houseNumber": "Numero",
+              "postalCode": "CAP",
+              "city": "Città"
+            },
+            "secondOfficeAddress": {
+              "street": "Via",
+              "houseNumber": "Numero",
+              "postalCode": "CAP",
+              "city": "Città"
+            }
+          }
+        },
+        "businessTripsCosts": {
+          "title": "Spese per Viaggi e Formazione",
+          "proof": "Carica la prova"
+        },
+        "workEquipment": {
+          "title": "Equipaggiamento di Lavoro",
+          "hasWorkEquipment": "Hai spese per equipaggiamento di lavoro?",
+          "expenses": "Spese per Equipaggiamento di Lavoro",
+          "expensesTypes": {
+            "office": "Ufficio",
+            "computer": "Computer",
+            "tools": "Strumenti",
+            "other": "Altro"
+          }
+        },
+        "homeOffice": {
+          "title": "Subvenzione per Ufficio a Domicilio",
+          "hasHomeOffice": "Hai un ufficio a domicilio?",
+          "workingDaysCount": "Numero di giorni di ufficio a domicilio (230 Massimo)",
+          "expenses": "Subvenzione per Ufficio a Domicilio"
+        },
+        "applicationCosts": {
+          "title": "Spese per Postulazioni",
+          "online": "Numero di Postulazioni Online",
+          "inPerson": "Numero di Postulazioni In Persona"
+        },
+        "hasDoubleHouseholdMgmt": "Hai una gestione di doppio nucleo familiare?"
+      },
+      "businessExpenses": {
+        "title": "Spese per Lavoro Autonomo",
+        "isBusinessOwner": "Sei un lavoratore autonomo?",
+        "businessType": "Tipo di Lavoro Autonomo",
+        "businessEarnings": "Guadagni da Lavoro Autonomo",
+        "businessExpenses": "Spese per Lavoro Autonomo",
+        "businessAddress": "Indirizzo del Lavoro Autonomo",
+        "street": "Via",
+        "houseNumber": "Numero",
+        "postalCode": "CAP",
+        "city": "Città"
+      },
+      "specialExpenses": {
+        "title": "Spese Speciali",
+        "insurance": {
+          "title": "Spese di Assicurazione",
+          "hasInsurance": "Hai spese di assicurazione?",
+          "expenses": "Spese di Assicurazione",
+          "expensesTypes": {
+            "health": "Assicurazione Sanitaria",
+            "life": "Assicurazione Vita",
+            "liability": "Assicurazione Responsabilità",
+            "accident": "Assicurazione Incidente",
+            "disability": "Assicurazione Invalidità",
+            "other": "Altro"
+          }
+        },
+        "donations": {  
+          "title": "Donazioni e Contribuzioni",
+          "hasDonations": "Hai effettuato donazioni e contributi?",
+          "expenses": "Donazioni e Contribuzioni"
+        },
+        "churchTax": {
+          "title": "Imposta Eclesiastica",
+          "hasChurchTax": "Hai imposta eclesiastica?",
+          "expenses": "Imposta Eclesiastica"
+        },
+        "childcareCosts": {
+          "title": "Costi di Custodia dei Bambini",
+          "hasChildcareCosts": "Hai costi di custodia dei bambini?",
+          "expenses": "Costi di Custodia dei Bambini"
+        },
+        "supportPayments": {
+          "title": "Pagamenti di Supporto",
+          "hasSupportPayments": "Hai effettuato pagamenti per sostenere persone bisognose?",
+          "expenses": "Pagamenti di Supporto"
+        },
+        "privateSchoolFees": {
+          "title": "Costi delle Scuole Private",
+          "hasPrivateSchoolFees": "Hai costi delle scuole private?",
+          "expenses": "Costi delle Scuole Private"
+        },
+        "professionalDevelopment": {
+          "title": "Formazione Professionale",
+          "hasProfessionalDevelopment": "Hai costi di formazione professionale?",
+          "expenses": "Formazione Professionale"
+        },
+        "otherInsuranceExpenses": {
+          "title": "Other Insurance Expenses",
+          "hasOtherInsuranceExpenses": "Do you have other insurance expenses?",
+          "expenses": "Other Insurance Expenses"
+        } 
+      },
+      "extraordinaryExpenses": {
+        "title": "Spese Extraordinarie",
+        "medicalExpenses": {
+          "title": "Spese Mediche",
+          "hasMedicalExpenses": "Hai spese mediche?",
+          "expenses": "Spese Mediche"
+        },
+        "rehabilitationCosts": {
+          "title": "Cure e Costi di Reabilitazione",
+          "hasRehabilitationCosts": "Hai costi di cure e reabilitazione?",
+          "expenses": "Cure e Costi di Reabilitazione"
+        },
+        "careCosts": {
+          "title": "Costi di Assistenza",
+          "hasCareCosts": "Hai costi di assistenza?",
+          "expenses": "Costi di Assistenza"
+        },
+        "disabilityExpenses": {
+          "title": "Costi di Invalidità",
+          "hasDisabilityExpenses": "Hai costi di invalidità?",
+          "expenses": "Costi di Invalidità"
+        },
+        "funeralCosts": {
+          "title": "Costi di Funerali",
+          "hasFuneralCosts": "Hai costi di funerali?",
+          "expenses": "Costi di Funerali"
+        },
+        "relativesSupportCosts": {
+          "title": "Costi di Assistenza per Persone Bisognose",
+          "hasRelativesSupportCosts": "Hai costi di assistenza per persone bisognose?",
+          "expenses": "Costi di Assistenza per Persone Bisognose"
+        },
+        "divorceCosts": {
+          "title": "Costi di Divorcio",
+          "hasDivorceCosts": "Hai costi di divorcio?",
+          "expenses": "Costi di Divorcio"
+        }
+      },
+      "insurancePremiums": {
+        "title": "Premi Assicurativi",
+        "statutoryHealthInsurance": {
+          "title": "Assicurazione Sanitaria Obbligatoria",
+          "longterm": "Assicurazione di Assistenza a Lungo Termine"
+        },
+        "privateHealthInsurance": {
+          "private": "Assicurazione Sanitaria Privata",
+          "longterm": "Assicurazione di Assistenza a Lungo Termine"
+        },
+        "statutoryPensionInsurance": {
+          "title": "Contributi all'Assicurazione Pensionistica Obbligatoria",
+          "employer": "Datore di Lavoro",
+          "employee": "Dipendente"
+        },
+        "privatePensionInsurance": {
+          "title": "Contributi a Piani Pensionistici Privati",
+          "employer": "Datore di Lavoro",
+          "employee": "Dipendente"
+        },
+        "unemploymentInsurance": {
+          "title": "Contributi all'Assicurazione Contro la Disoccupazione",
+          "employer": "Datore di Lavoro",
+          "employee": "Dipendente"
+        },
+        "termLifeInsurance": {
+          "title": "Assicurazione sulla Vita Temporanea",
+          "employer": "Datore di Lavoro",
+          "employee": "Dipendente"
+        }
+      },
+      "craftsmenServices": {
+        "title": "Servizi Artigianali",
+        "hasMaintenancePayments": "Hai effettuato pagamenti di mantenimento?",
+        "maintenanceRecipient": "Beneficiario dei Pagamenti di Mantenimento",
+        "maintenanceAmount": "Importo dei Pagamenti di Mantenimento",
+        "invoiceCraftsmenServices": "Carica la fattura per i servizi artigianali",
+        "householdServices": "Servizi Domestici",
+        "craftsmenServices": "Servizi Artigianali",
+        "gardeningServices": "Servizi di Giardinaggio e Invernali",
+        "cleaningServices": "Pulizia di Finestre e Appartamenti",
+        "caretakerServices": "Servizi di Portineria",
+        "householdCareCosts": "Costi di Assistenza per Bambini o Persone Bisognose",
+        "householdSupportServices": "Servizi di Assistenza e Cura Domestica",
+        "chimneySweepFees": "Tasse di Spazzacamino",
+        "emergencySystemCosts": "Costi per Sistemi di Emergenza Domestici"
+      },
+      "rentalAndLeasing": {
+        "title": "Affitto e Locazione",
+        "ownerFirstName": "Nome del Proprietario",
+        "ownerLastName": "Cognome del Proprietario",
+        "address": "Indirizzo",
+        "Purchase Date": "Data di Acquisto",
+        "documents": {
+          "rentalContracts": "Contratti di Affitto",
+          "annualStatements": "Rendiconti Annuali di Gestione Immobiliare",
+          "operatingCosts": "Dichiarazioni dei Costi Operativi",
+          "propertyTax": "Avvisi di Imposta Immobiliare",
+          "loanContracts": "Contratti di Prestito e Certificati di Interesse",
+          "repairBills": "Fatture di Riparazione e Manutenzione",
+          "craftsmenBills": "Fatture Artigianali",
+          "renovationProof": "Prova di Ristrutturazione e Modernizzazione",
+          "insurancePremiums": "Premi Assicurativi (e.g., Assicurazione Edifici)",
+          "brokerFees": "Spese di Intermediazione",
+          "rentalIncome": "Sintesi dei Redditi da Affitto",
+          "vacancyProof": "Prova di Vacanza (e.g., Annunci, Incarichi ad Agenti)",
+          "managementCosts": "Costi di Gestione Immobiliare",
+          "depreciationProof": "Documentazione di Ammortamento (e.g., Contratto di Acquisto, Perizie)"
+        }
+      }
+    },
+    "signature": {
+      "title": "Dichiarazione",
+      "declaration": "Dichiarazione",
+      "placeAndDate": "Luogo e Data",
+      "place": "Luogo",
+      "date": "Data",
+      "signature": "Firma", 
+      "consent1": "Dichiaro che le informazioni fornite in questa dichiarazione fiscale sono vere e corrette al meglio della mia conoscenza e credenza. Tutti i documenti e i rimborsi allegati sono completi e autentici. Sono a conoscenza che posso essere perseguitato penale per informazioni false o omesse.",
+      "consent2": "Dichiaro di aver preso visione dell'informativa privacy e di acconsentire al trattamento dei miei dati personali ai fini della preparazione della dichiarazione fiscale. Il trattamento avverrà conformemente alle norme vigenti in materia di protezione dei dati personali."
+    }
+  }
+}

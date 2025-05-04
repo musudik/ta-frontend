@@ -1,0 +1,554 @@
+{
+  "formTitle": "Deutsche Steuererklärung",
+  "validation": {
+    "required": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "invalidPhone": "Bitte geben Sie eine gültige Telefonnummer ein",
+    "invalidDate": "Bitte geben Sie ein gültiges Datum ein",
+    "invalidTaxId": "Bitte geben Sie eine gültige Steuer-ID ein (mindestens 8 Zeichen)",
+    "invalidPostalCode": "Bitte geben Sie eine gültige deutsche Postleitzahl ein (5 Ziffern)",
+    "selectionRequired": "Bitte treffen Sie eine Auswahl",
+    "spouseRequired": "Ehepartnerinformationen sind für Verheiratete/eingetragene Partnerschaften erforderlich",
+    "childRequired": "Kinderinformationen sind erforderlich, wenn Sie Kinder haben"
+  },
+  "businessType": {
+    "freelance": "Freiberuflich",
+    "trade": "Gewerblich",
+    "agriculture": "Landwirtschaftlich",
+    "other": "Sonstige"
+  },
+  "maritalStatus": {
+    "single": "Ledig",
+    "married": "Verheiratet",
+    "divorced": "Geschieden",
+    "widowed": "Verwitwet"
+  },
+  "addExpense": {
+    "title": "Ausgabe hinzufügen",
+    "description": "Beschreibung",
+    "amount": "Betrag",
+    "file": "Beleg",
+    "fileUpload": "Datei hochladen",
+    "type": "Art der Ausgabe",
+    "add": "Hinzufügen",
+    "remove": "Entfernen"
+  },
+  "countries": {
+    "afghan": "Afghanisch",
+    "albanian": "Albanisch",
+    "algerian": "Algerisch",
+    "american": "Amerikanisch",
+    "andorran": "Andorranisch",
+    "angolan": "Angolanisch",
+    "antiguan_and_barbudan": "Antiguanisch und Barbudanisch",
+    "argentine": "Argentinisch",
+    "armenian": "Armenisch",
+    "australian": "Australisch",
+    "austrian": "Österreichisch",
+    "azerbaijani": "Aserbaidschanisch",
+    "bahamian": "Bahamisch",
+    "bahraini": "Bahrainisch",
+    "bangladeshi": "Bangladeschisch",
+    "barbadian": "Barbadisch",
+    "belarusian": "Weißrussisch",
+    "belgian": "Belgischer",
+    "belizean": "Belizeanisch",
+    "beninese": "Beninisch",
+    "bhutanese": "Bhutanisch",
+    "bolivian": "Bolivianisch",
+    "bosnian": "Bosnisch",
+    "botswanan": "Botswanisch",
+    "brazilian": "Brasilianisch",
+    "british": "Britisch",
+    "bulgarian": "Bulgarisch",
+    "burkinabe": "Burkinischer",
+    "burmese": "Birmanisch",
+    "cambodian": "Kambodschanisch",
+    "cameroonian": "Kamerunisch",
+    "canadian": "Kanadisch",
+    "cape_verdean": "Kapverdisch",
+    "central_african": "Zentralafrikanischer",
+    "chadian": "Tschadisch",
+    "chilean": "Chilenisch",
+    "chinese": "Chinesisch",
+    "colombian": "Kolumbianisch",
+    "comorian": "Komorisch",
+    "congolese": "Kongolesisch",
+    "costa_rican": "Costa-Ricanisch",
+    "croatian": "Kroatisch",
+    "cuban": "Kubanisch",
+    "cypriot": "Zyprisch",
+    "czech": "Tschechisch",
+    "danish": "Dänisch",
+    "djiboutian": "Dschibutisch",
+    "dominican": "Dominikanischer",
+    "dutch": "Niederländisch",
+    "east_timorese": "Osttimoreisch",
+    "ecuadorian": "Ecuadorianisch",
+    "egyptian": "Ägyptisch",
+    "emirian": "Emirianisch",
+    "equatorial_guinean": "Äquatorialguineisch",
+    "eritrean": "Eritreisch",
+    "estonian": "Estnischer",
+    "ethiopian": "Äthiopisch",
+    "fijian": "Fidschianisch",
+    "filipino": "Philippinisch",
+    "finnish": "Finnisch",
+    "french": "Französisch",
+    "gabonese": "Gabonesisch",
+    "gambian": "Gambianisch",
+    "georgian": "Georgisch",
+    "german": "Deutsch",
+    "ghanaian": "Ghanaisch",
+    "greek": "Griechisch",
+    "grenadian": "Grenadianisch",
+    "guatemalan": "Guatemalanisch",
+    "guinean": "Guineisch",
+    "guyanese": "Guyanisch",
+    "haitian": "Haitianisch",
+    "herzegovinian": "Herzegowinisch",
+    "honduran": "Honduranisch",
+    "hungarian": "Ungarisch",
+    "icelander": "Isländisch",
+    "indian": "Indisch",
+    "indonesian": "Indonesisch",
+    "iranian": "Iranisch",
+    "iraqi": "Iraki",
+    "irish": "Irisch",
+    "israeli": "Israelisch",
+    "italian": "Italienisch",
+    "ivorian": "Elfenbeinküstenisch",
+    "jamaican": "Jamaikanisch",
+    "japanese": "Japanisch",
+    "jordanian": "Jordanisch",
+    "kazakh": "Kasachisch",
+    "kenyan": "Kenyanisch",
+    "korean": "Koreanisch",
+    "kosovar": "Kosovarisch",
+    "kuwaiti": "Kuwaitisch",
+    "kyrgyz": "Kirgisisch",
+    "laotian": "Laotisch",
+    "latvian": "Lettisch",
+    "lebanese": "Libanesisch",
+    "liberian": "Liberianisch",
+    "libyan": "Libyisch",
+    "liechtensteiner": "Liechtensteinisch",
+    "lithuanian": "Litauisch",
+    "luxembourger": "Luxemburgisch",
+    "macedonian": "Mazedonisch",
+    "malagasy": "Madagassisch",
+    "malawian": "Malawisch",
+    "malaysian": "Malaysisch",
+    "maldivian": "Maledivisch",
+    "malian": "Mali",
+    "maltese": "Maltesisch",
+    "marshallese": "Marshallesisch",
+    "mauritanian": "Mauritanisch",
+    "mauritian": "Mauritiusisch",
+    "mexican": "Mexikanisch",
+    "micronesian": "Mikronesisch",
+    "moldovan": "Moldauisch",
+    "monacan": "Monakanisch",
+    "mongolian": "Mongolisch",
+    "montenegrin": "Montenegrinisch",
+    "moroccan": "Marokkanisch",
+    "mozambican": "Mosambikanisch",
+    "namibian": "Namibianisch",
+    "nauruan": "Nauruisch",
+    "nepalese": "Nepalesisch",
+    "netherlander": "Niederländisch",
+    "new_zealander": "Neuseeländerisch",
+    "nicaraguan": "Nicaraguanisch",
+    "nigerien": "Nigerianisch",
+    "north_korean": "Nordkoreanisch",
+    "norwegian": "Norwegisch",
+    "omani": "Omanisch",
+    "pakistani": "Pakistanisch",
+    "palestinian": "Palästinensisch",
+    "panamanian": "Panamaisch",
+    "papua_new_guinean": "Papua-Neuguineisch",
+    "paraguayan": "Paraguayisch",
+    "peruvian": "Peruanisch",
+    "philippine": "Philippinisch",
+    "pitcairn_island": "Pitcairninsel",
+    "polish": "Polnisch",
+    "portuguese": "Portugiesisch",
+    "qatari": "Katarisch",
+    "romanian": "Rumänisch",
+    "russian": "Russisch",
+    "rwandan": "Rwandisch",
+    "saint_lucian": "St. Lucianisch",
+    "salvadoran": "Salvadorianisch",
+    "samoan": "Samoanisch",
+    "sao_tomean": "São-Toméisch",
+    "saudi": "Saudi-Arabienisch",
+    "scottish": "Schottisch",
+    "senegalese": "Senegalesisch",
+    "serbian": "Serbisch",
+    "seychellois": "Seychellois",
+    "sierra_leonean": "Sierra-Leoneisch",
+    "singaporean": "Singapurisch",
+    "slovak": "Slowakisch",
+    "slovenian": "Slowenisch",
+    "somali": "Somali",
+    "south_african": "Südafrikanisch",
+    "south_korean": "Südkoreanisch",
+    "spanish": "Spanisch",
+    "sri_lankan": "Sri-Lankisch",
+    "sudanese": "Sudanesisch",
+    "surinamese": "Surinamesisch",
+    "swazi": "Swazi",
+    "swedish": "Schwedisch",
+    "swiss": "Schweizerisch",
+    "syrian": "Syrisch",
+    "taiwanese": "Taiwanesisch",
+    "tanzanian": "Tanzanischer",
+    "thai": "Thailändisch",
+    "tongan": "Tonganisch",
+    "trinidadian_and_tobagoan": "Trinidadianisch und Tobagoisch",
+    "tunisian": "Tunesisch",
+    "turkish": "Türkisch",
+    "turkmen": "Turkmenisch", 
+    "ugandan": "Ugandisch",
+    "ukrainian": "Ukrainisch",
+    "uruguayan": "Uruguayanisch",
+    "uzbek": "Usbekisch",
+    "venezuelan": "Venezolanisch",
+    "vietnamese": "Vietnamesisch",
+    "yemeni": "Jemenisch",  
+    "zambian": "Sambisch",
+    "zimbabwean": "Simbabwisch",
+    "other": "Andere"
+  },
+  "taxForm": {
+    "title": "Deutsche Steuererklärung", 
+    "taxYear": {
+      "title": "Steuerjahr",
+      "description": "Bitte wählen Sie das Jahr aus, für das Sie die Steuererklärung einreichen möchten."
+    },
+    "personalInfo": {
+      "title": "Persönliche Informationen",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "taxId": "Steuer-ID",
+      "dateOfBirth": "Geburtsdatum",
+      "maritalStatus": "Familienstand",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "address": {
+        "title": "Adresse",
+        "street": "Straße",
+        "houseNumber": "Hausnummer",
+        "postalCode": "Postleitzahl",
+        "city": "Stadt"
+      },
+      "foreignResidence": {
+        "title": "Auslandsaufenthalt",
+        "hasResidence": "Haben Sie einen Wohnsitz im Ausland?",
+        "country": "Land",
+        "otherCountry": "Anderes Land"
+      },
+      "spouse": {
+        "title": "Ehepartner Informationen",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "dateOfBirth": "Geburtsdatum",
+        "taxId": "Steuer-ID",
+        "hasIncome": "Hat Ihr Ehepartner Einkommen?",
+        "incomeType": "Art des Einkommens",
+        "jointTaxation": "Gemeinsame Veranlagung?"
+      },
+      "children": {
+        "title": "Kinder",
+        "hasChildren": "Haben Sie Kinder?",
+        "child": "Kind",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "dateOfBirth": "Geburtsdatum",
+        "taxId": "Steuer-ID",
+        "add": "Kind hinzufügen",
+        "remove": "Entfernen"
+      }
+    },
+    "incomeInfo": {
+      "employment": {
+        "title": "Einkommensinformationen",
+        "isEmployed": "Sind Sie angestellt?",
+        "employer": "Arbeitgeber",
+        "employmentIncome": "Einkommen aus Beschäftigung",
+        "hasTaxCertificate": "Haben Sie eine Lohnsteuerbescheinigung?",
+        "hasTravelSubsidy": "Erhalten Sie einen Fahrtkostenzuschuss?",
+        "travelDistance": "Entfernung in km",
+        "taxCertificate": "Lohnsteuerbescheinigung"
+      },
+      "business": {
+        "title": "Einkommen aus selbständiger Arbeit",
+        "isBusinessOwner": "Sind Sie selbstständig?",
+        "businessType": "Art der Selbstständigkeit",
+        "businessEarnings": "Einnahmen aus Selbstständigkeit",
+        "businessExpenses": "Ausgaben aus Selbstständigkeit"
+      },  
+      "foreignIncome": {
+        "title": "Einkommen aus dem Ausland",
+        "hasForeignIncome": "Haben Sie Einkommen aus dem Ausland?",
+        "country": "Land der Einkünfte",
+        "typeOfIncome": "Art der Einkünfte",
+        "totalAmountQuestion": "Gesamtbetrag der ausländischen Einkünfte",
+        "foreignTaxPaid": "Im Ausland gezahlte Steuern",
+        "certificateUpload": "Steuerbescheinigung hochladen"
+      },
+      "rentalIncome": {
+        "title": "Mieteinnahmen",
+        "hasRentalProperty": "Haben Sie eine Mietimmobilie?",
+        "rentalIncome": "Mieteinnahmen",
+        "rentalCosts": "Mietnebenkosten",
+        "rentalPropertyAddress": "Adresse der Mietimmobilie",
+        "street": "Straße",
+        "houseNumber": "Hausnummer",
+        "postalCode": "Postleitzahl",
+        "city": "Stadt"
+      },
+      "investments": {
+        "title": "Kapitalerträge",
+        "hasStockIncome": "Haben Sie Einkünfte aus Aktien?",
+        "dividendEarnings": "Dividendenerträge",
+        "hasStockSales": "Haben Sie Aktien verkauft?",
+        "stockProfitLoss": "Gewinn oder Verlust aus Aktienverkäufen",
+        "hasBankCertificate": "Haben Sie eine Bankbescheinigung?",
+        "capitalGains": "Kapitalgewinne",
+        "hasForeignStocks": "Haben Sie ausländische Aktien?",
+        "foreignTaxPaid": "Im Ausland gezahlte Steuern"
+      }
+    },
+    "expenses": {
+      "title": "Ausgaben & Abzüge",
+      "workRelatedExpenses": {
+        "title": "Arbeitsbezogene Ausgaben",
+        "commutation": {
+          "title": "Fahrtenkosten",
+          "hasCommutingExpenses": "Haben Sie Fahrtenkosten?",
+          "workingDaysCount": "Anzahl der Arbeitstage (Max. 230)",
+          "route": {
+            "from": {
+              "street": "Straße",
+              "houseNumber": "Hausnummer",
+              "postalCode": "Postleitzahl",
+              "city": "Stadt" 
+            },
+            "to": {
+              "street": "Straße",
+              "houseNumber": "Hausnummer",
+              "postalCode": "Postleitzahl",
+              "city": "Stadt" 
+            }
+          }
+        },
+        "businessTripsCosts": {
+          "title": "Geschäftsfahrten und Ausbildungskosten",
+          "proof": "Bitte laden Sie die Belege hoch"
+        },
+        "workEquipment": {
+          "title": "Arbeitsausstattung",
+          "hasWorkEquipment": "Haben Sie Arbeitsausstattungskosten?",
+          "expenses": "Arbeitsausstattungskosten",
+          "expensesTypes": {
+            "office": "Büroausstattung",
+            "computer": "Computerausstattung",
+            "tools": "Werkzeuge",
+            "other": "Andere"
+          }
+        },
+        "homeOffice": {
+          "title": "Hausarbeitsplatzzulage",
+          "hasHomeOffice": "Haben Sie einen Hausarbeitsplatz?",
+          "workingDaysCount": "Anzahl der Hausarbeitsplatztage (Max. 230)",
+          "expenses": "Hausarbeitsplatzzulage"
+        },
+        "applicationCosts": {
+          "title": "Antrags- und Bewerbungskosten",
+          "online": "Anzahl der Online-Anträge",
+          "inPerson": "Anzahl der persönlichen Anträge"
+        },
+        "hasDoubleHouseholdMgmt": "Haben Sie Mehrfamilienhaushalt?" 
+      },
+      "businessExpenses": {
+        "title": "Geschäftliche Ausgaben",
+        "isBusinessOwner": "Sind Sie Geschäftsinhaber?",
+        "businessType": "Art des Geschäfts",
+        "businessEarnings": "Geschäftliche Einnahmen",
+        "businessExpenses": "Geschäftliche Ausgaben",
+        "businessAddress": "Geschäftsadresse",
+        "street": "Straße",
+        "houseNumber": "Hausnummer",
+        "postalCode": "Postleitzahl",
+        "city": "Stadt"
+      },
+      "specialExpenses": {
+        "title": "Sonderausgaben",
+        "insurance": {
+          "title": "Versicherungsausgaben",
+          "hasInsurance": "Haben Sie Versicherungsausgaben?",
+          "expenses": "Versicherungsausgaben",
+          "expensesTypes": {
+            "health": "Krankenversicherung",
+            "life": "Lebensversicherung",
+            "liability": "Haftpflichtversicherung",
+            "accident": "Unfallversicherung",
+            "disability": "Erwerbsunfähigkeitsversicherung",
+            "other": "Andere"
+          }
+        },
+        "donations": {
+          "title": "Spenden",
+          "hasDonations": "Haben Sie Spenden geleistet?",
+          "expenses": "Spendenbeträge"
+        },
+        "churchTax": {
+          "title": "Kirchensteuer",
+          "hasChurchTax": "Haben Sie Kirchensteuer?",
+          "expenses": "Kirchensteuer"
+        },
+        "childcareCosts": {
+          "title": "Kinderbetreuungskosten",
+          "hasChildcareCosts": "Haben Sie Kinderbetreuungskosten?",
+          "expenses": "Kinderbetreuungskosten"
+        },
+        "supportPayments": {
+          "title": "Unterstützungskosten",
+          "hasSupportPayments": "Haben Sie Unterstützungskosten?",
+          "expenses": "Unterstützungskosten"
+        },
+        "privateSchoolFees": {
+          "title": "Privatschulkosten",
+          "hasPrivateSchoolFees": "Haben Sie Privatschulkosten?",
+          "expenses": "Privatschulkosten"
+        },
+        "professionalDevelopment": {
+          "title": "Berufliche Weiterbildungskosten",
+          "hasProfessionalDevelopment": "Haben Sie berufliche Weiterbildungskosten?",
+          "expenses": "Berufliche Weiterbildungskosten"
+        },
+        "professionalTrainingCosts": {
+          "title": "Berufsausbildungskosten",
+          "hasProfessionalTrainingCosts": "Haben Sie Berufsausbildungskosten?",
+          "expenses": "Berufsausbildungskosten"
+        },
+        "otherInsuranceExpenses": {
+          "title": "Andere Versicherungsausgaben",
+          "hasOtherInsuranceExpenses": "Haben Sie andere Versicherungsausgaben?",
+          "expenses": "Andere Versicherungsausgaben"
+        }
+      },
+      "extraordinaryExpenses": {
+        "title": "Ausnahmeausgaben",
+        "medicalExpenses": {
+          "title": "Krankheitskosten",
+          "hasMedicalExpenses": "Haben Sie Krankheitskosten?",
+          "expenses": "Krankheitskosten"
+        },
+        "rehabilitationCosts": {  
+          "title": "Heilung und Rehabilitationskosten",
+          "hasRehabilitationCosts": "Haben Sie Heilung und Rehabilitationskosten?",
+          "expenses": "Heilung und Rehabilitationskosten"
+        },
+        "careCosts": {  
+          "title": "Pflegekosten",  
+          "hasCareCosts": "Haben Sie Pflegekosten?",
+          "expenses": "Pflegekosten"
+        },
+        "disabilityExpenses": {
+          "title": "Behindertenausgaben",
+          "hasDisabilityExpenses": "Haben Sie Behindertenausgaben?",  
+          "expenses": "Behindertenausgaben"
+        },
+        "funeralCosts": {
+          "title": "Begräbniskosten",
+          "hasFuneralCosts": "Haben Sie Begräbniskosten?",
+          "expenses": "Begräbniskosten" 
+        },
+        "relativesSupportCosts": {
+          "title": "Unterstützungskosten für Bedürftige",
+          "hasRelativesSupportCosts": "Haben Sie Unterstützungskosten für Bedürftige?",
+          "expenses": "Unterstützungskosten für Bedürftige"
+        },
+        "divorceCosts": {
+          "title": "Scheidungskosten",
+          "hasDivorceCosts": "Haben Sie Scheidungskosten?",
+          "expenses": "Scheidungskosten"
+        }
+      },
+      "insurancePremiums": {
+        "title": "Versicherungsprämien",
+        "statutoryHealthInsurance": {
+          "title": "Gesetzliche Krankenversicherung",
+          "longterm": "Langfristige Pflegeversicherung"
+        },
+        "privateHealthInsurance": {
+          "title": "Private Krankenversicherung",
+          "longterm": "Langfristige Pflegeversicherung"
+        },
+        "statutoryPensionInsurance": {
+          "title": "Gesetzliche Rentenversicherung Beiträge",
+          "employer": "Arbeitgeber",
+          "employee": "Arbeitnehmer"
+        },
+        "privatePensionInsurance": {
+          "title": "Private Rentenversicherung Beiträge (Rürup-Rente)",
+          "unemploymentInsurance": "Arbeitslosigkeitsversicherung Beiträge",
+          "accidentLiabilityInsurance": "Unfall- und Haftpflichtversicherung Beiträge",
+          "disabilityInsurance": "Erwerbsunfähigkeitsversicherung Beiträge",
+          "termLifeInsurance": "Term Life Insurance Beiträge"
+        }
+      },
+      "craftsmenServices": {
+        "title": "Haben Sie Handwerkerleistungen in Anspruch genommen?",
+        "hasMaintenancePayments": "Haben Sie Reparaturzahlungen geleistet?",
+        "maintenanceRecipient": "Empfänger der Reparaturzahlungen",
+        "maintenanceAmount": "Betrag der Reparaturzahlungen",
+        "invoiceCraftsmenServices": "Bitte laden Sie die Rechnung für Handwerkerleistungen hoch",
+        "householdServices": "Haushaltsleistungen",
+        "craftsmenServices": "Handwerkerleistungen",
+        "gardeningServices": "Gärtner- und Winterleistungen",
+        "cleaningServices": "Wohnungs- und Fensterputz",
+        "caretakerServices": "Hausmeister- und Hausputzleistungen",
+        "householdCareCosts": "Kosten für Haushaltsbetreuung und -unterstützung",
+        "householdSupportServices": "Kosten für Haushaltsbezogene Versorgungsleistungen",
+        "chimneySweepFees": "Kaminreinigungskosten",
+        "emergencySystemCosts": "Kosten für Haushaltsnotfälle"
+      },
+      "rentalAndLeasing": {
+        "title": "Miet- und Pachtverträge",
+        "ownerFirstName": "Vorname",
+        "ownerLastName": "Nachname",
+        "address": "Adresse",
+        "purchaseDate": "Erwerbungsdatum",
+        "documents": {
+          "rentalContracts": "Mietverträge",
+          "annualStatements": "Jahresverwaltungsergebnisse",
+          "operatingCosts": "Betriebskosten",
+          "propertyTax": "Grundsteuer",
+          "loanContracts": "Kredite und Zinsbescheinigungen",
+          "repairBills": "Reparatur- und Wartungsbescheinigungen",
+          "craftsmenBills": "Handwerkerrechnungen",
+          "renovationProof": "Renovation und Modernisierungsbescheinigungen",
+          "insurancePremiums": "Versicherungsprämien (z.B. Gebäudeversicherung)",
+          "brokerFees": "Brokergebühren",
+          "rentalIncome": "Mieteinnahmenübersicht",
+          "vacancyProof": "Mietausfallbeweise (z.B. Anzeigen, Maklervergütungen)",
+          "managementCosts": "Verwaltungskosten",
+          "depreciationProof": "Abschreibungsbescheinigungen (z.B. Erwerbspreis, Bewertungen)"
+        }
+      }
+    },
+    "signature": {    
+      "title": "Erklärung",
+      "declaration": "Erklärung",
+      "placeAndDate": "Ort und Datum",
+      "place": "Ort",
+      "date": "Datum",
+      "signature": "Unterschrift",
+      "consent1": "Ich versichere, dass ich die Angaben in dieser Steuererklärung wahrheitsgemäß nach bestem Wissen und Gewissen gemacht habe. Die beigefügten Unterlagen und Belege sind vollständig und authentisch. Mir ist bekannt, dass ich für falsche oder unterlassene Angaben strafrechtlich zur Verantwortung gezogen werden kann.",
+      "consent2": "Ich stimme zu, dass meine Daten zum Zweck der Steuererklärung verarbeitet und gespeichert werden. Die Verarbeitung erfolgt unter Beachtung der geltenden Datenschutzbestimmungen."
+    }
+  }
+}

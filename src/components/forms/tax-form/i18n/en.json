@@ -1,0 +1,549 @@
+{
+  "formTitle": "German Tax Return",
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number",
+    "invalidDate": "Please enter a valid date",
+    "invalidTaxId": "Please enter a valid Tax ID (minimum 8 characters)",
+    "invalidPostalCode": "Please enter a valid German postal code (5 digits)",
+    "selectionRequired": "Please make a selection",
+    "spouseRequired": "Spouse information is required for married/registered partnerships",
+    "childRequired": "Child information is required when you have children"
+  },
+  "businessType": {
+    "freelance": "Freelance",
+    "trade": "Trade",
+    "agriculture": "Agriculture",
+    "other": "Other"
+  },
+  "maritalStatus": {
+    "single": "Single",
+    "married": "Married",
+    "divorced": "Divorced",
+    "widowed": "Widowed"
+  },
+  "addExpense": {
+    "title": "Add Expense",
+    "description": "Description",
+    "amount": "Amount",
+    "file": "Proof of Expense",
+    "fileUpload": "Upload File",
+    "type": "Expense Type",
+    "add": "Add",
+    "remove": "Remove"
+  },
+  "countries": {
+    "afghan": "Afghan",
+    "albanian": "Albanian",
+    "algerian": "Algerian",
+    "american": "American",
+    "andorran": "Andorran",
+    "angolan": "Angolan",
+    "antiguan_and_barbudan": "Antiguan and Barbudan",
+    "argentine": "Argentine",
+    "armenian": "Armenian",
+    "australian": "Australian",
+    "austrian": "Austrian",
+    "azerbaijani": "Azerbaijani",
+    "bahamian": "Bahamian",
+    "bahraini": "Bahraini",
+    "bangladeshi": "Bangladeshi",
+    "barbadian": "Barbadian",
+    "belarusian": "Belarusian",
+    "belgian": "Belgian",
+    "belizean": "Belizean",
+    "beninese": "Beninese",
+    "bhutanese": "Bhutanese",
+    "bolivian": "Bolivian",
+    "bosnian": "Bosnian",
+    "botswanan": "Botswanan",
+    "brazilian": "Brazilian",
+    "british": "British",
+    "bruneian": "Bruneian",
+    "bulgarian": "Bulgarian",
+    "burkinabe": "Burkinabe",
+    "burmese": "Burmese",
+    "burundian": "Burundian",
+    "cabo_verdean": "Cabo Verdean",
+    "cambodian": "Cambodian",
+    "cameroonian": "Cameroonian",
+    "canadian": "Canadian",
+    "central_african": "Central African",
+    "chadian": "Chadian",
+    "chilean": "Chilean",
+    "chinese": "Chinese",
+    "colombian": "Colombian",
+    "comorian": "Comorian",
+    "congolese": "Congolese",
+    "costa_rican": "Costa Rican",
+    "croatian": "Croatian",
+    "cuban": "Cuban",
+    "cypriot": "Cypriot",
+    "czech": "Czech",
+    "danish": "Danish",
+    "djiboutian": "Djiboutian",
+    "dominican": "Dominican",
+    "dutch": "Dutch",
+    "east_timorese": "East Timorese",
+    "ecuadorean": "Ecuadorean",
+    "egyptian": "Egyptian",
+    "emirati": "Emirati",
+    "equatorial_guinean": "Equatorial Guinean",
+    "eritrean": "Eritrean",
+    "estonian": "Estonian",
+    "eswatini": "Eswatini",
+    "ethiopian": "Ethiopian",
+    "fijian": "Fijian",
+    "filipino": "Filipino",
+    "finnish": "Finnish",
+    "french": "French",
+    "gabonese": "Gabonese",
+    "gambian": "Gambian",
+    "georgian": "Georgian",
+    "german": "German",
+    "ghanaian": "Ghanaian",
+    "greek": "Greek",
+    "grenadian": "Grenadian",
+    "guatemalan": "Guatemalan",
+    "guinean": "Guinean",
+    "guyanese": "Guyanese",
+    "haitian": "Haitian",
+    "honduran": "Honduran",
+    "hungarian": "Hungarian",
+    "icelandic": "Icelandic",
+    "indian": "Indian",
+    "indonesian": "Indonesian",
+    "iranian": "Iranian",
+    "iraqi": "Iraqi",
+    "irish": "Irish",
+    "israeli": "Israeli",
+    "italian": "Italian",
+    "ivorian": "Ivorian",
+    "jamaican": "Jamaican",
+    "japanese": "Japanese",
+    "jordanian": "Jordanian",
+    "kazakh": "Kazakh",
+    "kenyan": "Kenyan",
+    "kiribati": "Kiribati",
+    "kuwaiti": "Kuwaiti",
+    "kyrgyz": "Kyrgyz",
+    "laotian": "Laotian",
+    "latvian": "Latvian",
+    "lebanese": "Lebanese",
+    "liberian": "Liberian",
+    "libyan": "Libyan",
+    "liechtensteiner": "Liechtensteiner",
+    "lithuanian": "Lithuanian",
+    "luxembourger": "Luxembourger",
+    "macedonian": "Macedonian",
+    "malagasy": "Malagasy",
+    "malawian": "Malawian",
+    "malaysian": "Malaysian",
+    "maldivian": "Maldivian",
+    "malian": "Malian",
+    "maltese": "Maltese",
+    "marshallese": "Marshallese",
+    "mauritanian": "Mauritanian",
+    "mauritian": "Mauritian",
+    "mexican": "Mexican",
+    "micronesian": "Micronesian",
+    "moldovan": "Moldovan",
+    "monacan": "Monacan",
+    "mongolian": "Mongolian",
+    "montenegrin": "Montenegrin",
+    "moroccan": "Moroccan",
+    "mozambican": "Mozambican",
+    "namibian": "Namibian",
+    "nauruan": "Nauruan",
+    "nepalese": "Nepalese",
+    "new_zealander": "New Zealander",
+    "nicaraguan": "Nicaraguan",
+    "nigerien": "Nigerien",
+    "nigerian": "Nigerian",
+    "north_korean": "North Korean",
+    "norwegian": "Norwegian",
+    "omani": "Omani",
+    "pakistani": "Pakistani",
+    "palauan": "Palauan",
+    "palestinian": "Palestinian",
+    "panamanian": "Panamanian",
+    "papua_new_guinean": "Papua New Guinean",
+    "paraguayan": "Paraguayan",
+    "peruvian": "Peruvian",
+    "polish": "Polish",
+    "portuguese": "Portuguese",
+    "qatari": "Qatari",
+    "romanian": "Romanian",
+    "russian": "Russian",
+    "rwandan": "Rwandan",
+    "saudi": "Saudi",
+    "senegalese": "Senegalese",
+    "serbian": "Serbian",
+    "seychellois": "Seychellois",
+    "singaporean": "Singaporean",
+    "slovak": "Slovak",
+    "slovenian": "Slovenian",
+    "solomon_islander": "Solomon Islander",
+    "somali": "Somali",
+    "south_african": "South African",
+    "south_korean": "South Korean",
+    "spanish": "Spanish",
+    "sri_lankan": "Sri Lankan",
+    "sudanese": "Sudanese",
+    "surinamese": "Surinamese",
+    "swazi": "Swazi",
+    "swedish": "Swedish",
+    "swiss": "Swiss",
+    "syrian": "Syrian",
+    "tajik": "Tajik",
+    "tanzanian": "Tanzanian",
+    "thai": "Thai",
+    "tunisian": "Tunisian",
+    "turkish": "Turkish",
+    "turkmen": "Turkmen",
+    "ugandan": "Ugandan",
+    "ukrainian": "Ukrainian",
+    "uruguayan": "Uruguayan",
+    "uzbek": "Uzbek",
+    "venezuelan": "Venezuelan",
+    "vietnamese": "Vietnamese",
+    "yemeni": "Yemeni",
+    "zambian": "Zambian",
+    "zimbabwean": "Zimbabwean",
+    "other": "Other"
+  },
+  "taxForm": {
+    "title": "German Tax Return",
+    "taxYear": {
+      "title": "Tax Year",
+      "description": "Please select the year for which you are filing this tax return."
+    },
+    "personalInfo": {
+      "title": "Personal Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "taxId": "Tax ID",
+      "dateOfBirth": "Date of Birth",
+      "maritalStatus": "Marital Status",
+      "email": "Email",
+      "phone": "Phone",
+      "address": {
+        "title": "Address",
+        "street": "Street",
+        "houseNumber": "House Number",
+        "postalCode": "Postal Code",
+        "city": "City"
+      },
+      "foreignResidence": {
+        "title": "Foreign Residence",
+        "hasResidence": "Do you have residence abroad?",
+        "country": "Country",
+        "otherCountry": "Other Country"
+      },
+      "spouse": {
+        "title": "Spouse Information",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "dateOfBirth": "Date of Birth",
+        "taxId": "Tax ID",
+        "hasIncome": "Does your spouse have income?",
+        "incomeType": "Income Type",
+        "jointTaxation": "Joint Taxation?"
+      },
+      "children": {
+        "title": "Children",
+        "hasChildren": "Do you have children?",
+        "child": "Child",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "dateOfBirth": "Date of Birth",
+        "taxId": "Tax ID",
+        "add": "Add Child",
+        "remove": "Remove"
+      }
+    },
+    "incomeInfo": {
+      "employment": {
+        "title": "Income Information",
+        "isEmployed": "Are you employed?",
+        "employer": "Employer",
+        "employmentIncome": "Employment Income",
+        "hasTaxCertificate": "Do you have a tax certificate?",
+        "hasTravelSubsidy": "Do you receive a travel subsidy?",
+        "travelDistance": "Distance in km",
+        "taxCertificate": "Tax Certificate"
+      },
+      "business": {
+        "title": "Self-Employment Income",
+        "isBusinessOwner": "Are you self-employed?",
+        "businessType": "Type of self-employment",
+        "businessEarnings": "Self-employment earnings",
+        "businessExpenses": "Self-employment expenses"
+      },
+      "foreignIncome": {
+        "title": "Foreign Income",
+        "hasForeignIncome": "Do you have income from abroad?",
+        "country": "Country of income",
+        "typeOfIncome": "Type of income",
+        "totalAmountOfIncome": "Total amount of foreign income",
+        "foreignTaxPaid": "Foreign Tax paid",
+        "certificateUpload": "Upload Tax Certificate"
+      },
+      "rentalIncome": {
+        "title": "Rental Income",
+        "hasRentalProperty": "Do you have rental income?",
+        "rentalIncome": "Rental income",
+        "rentalCosts": "Rental costs",
+        "rentalPropertyAddress": "Rental Property Address",
+        "street": "Street",
+        "houseNumber": "House Number",
+        "postalCode": "Postal Code",
+        "city": "City"
+      },
+      "investments": {
+        "title": "Investment Income",
+        "hasStockIncome": "Do you have income from stocks?",
+        "dividendEarnings": "Dividend earnings",
+        "hasStockSales": "Did you sell stocks?",
+        "stockProfitLoss": "Profit or loss from stock sales",
+        "hasBankCertificate": "Do you have a bank certificate?",
+        "capitalGains": "Capital gains",
+        "hasForeignStocks": "Do you have foreign stocks?",
+        "foreignTaxPaid": "Foreign tax paid"
+      }
+    },
+    "expenses": {
+      "title": "Expenses & Deductions",
+      "workRelatedExpenses": {
+        "title": "Work-Related Expenses",
+        "commutation": {
+          "title": "Commuting Expenses",
+          "hasCommutingExpenses": "Do you have Commuting Expenses?",
+          "workingDaysCount": "Number of working days (230 Max)",
+          "route": {
+            "from": {
+              "street": "Street",
+              "houseNumber": "House Number",
+              "postalCode": "Postal Code",
+              "city": "City"
+            },
+            "firstOfficeAddress": {
+              "street": "Street",
+              "houseNumber": "House Number",
+              "postalCode": "Postal Code",
+              "city": "City"
+            },
+            "secondOfficeAddress": {
+              "street": "Street",
+              "houseNumber": "House Number",
+              "postalCode": "Postal Code",
+              "city": "City"
+            }
+          }
+        },
+        "businessTripsCosts": {
+          "title": "Business Trips and Training Costs",
+          "proof": "Upload Proof"
+        },
+        "workEquipment": {
+          "title": "Work Equipment",
+          "hasWorkEquipment": "Do you have Work Equipment expenses?",
+          "expenses": "Work Equipment expenses",
+          "expensesTypes": {
+            "office": "Office Supplies",
+            "computer": "Computer Equipment",
+            "tools": "Tools",
+            "other": "Other"
+          }
+        },
+        "homeOffice": {
+          "title": "Home Office Allowance",
+          "hasHomeOffice": "Do you have a home office?",
+          "workingDaysCount": "Number of home office days (230 Max)",
+          "expenses": "Home Office expenses"
+        },
+        "applicationCosts": {
+          "title": "Job Application Costs",
+          "online": "Number of Online Applications",
+          "inPerson": "Number of In-Person Applications"
+        },
+        "hasDoubleHouseholdMgmt": "Did you have double household management?"
+      },
+      "businessExpenses": {
+        "title": "Business Expenses",
+        "isBusinessOwner": "Are you a business owner?",
+        "businessType": "Type of Business",
+        "businessEarnings": "Business Earnings",
+        "businessExpenses": "Business Expenses",
+        "businessAddress": "Business Address",
+        "street": "Street",
+        "houseNumber": "House Number",
+        "postalCode": "Postal Code",
+        "city": "City"
+      },
+      "specialExpenses": {
+        "title": "Special Expenses",
+        "insurance": {
+          "title": "Insurance Expenses",
+          "hasInsurance": "Do you have insurance expenses?",
+          "expenses": "Insurance Expenses",
+          "expensesTypes": {
+            "health": "Health Insurance",
+            "life": "Life Insurance",
+            "liability": "Liability Insurance",
+            "accident": "Accident Insurance",
+            "disability": "Disability Insurance",
+            "other": "Other"
+          }
+        },
+        "donations": {  
+          "title": "Donations and Membership Fees",
+          "hasDonations": "Do you have donations and membership fees?",
+          "expenses": "Donations and Membership Fees"
+        },
+        "churchTax": {
+          "title": "Church Tax",
+          "hasChurchTax": "Do you have church tax?",
+          "expenses": "Church Tax"
+        },
+        "childcareCosts": {
+          "title": "Childcare Costs",
+          "hasChildcareCosts": "Do you have childcare costs?",
+          "expenses": "Childcare Costs"
+        },
+        "supportPayments": {
+          "title": "Support Payments",
+          "hasSupportPayments": "Do you make payments to support needy persons?",
+          "expenses": "Support Payments"
+        },
+        "privateSchoolFees": {
+          "title": "Private School Fees",
+          "hasPrivateSchoolFees": "Do you have private school fees?",
+          "expenses": "Private School Fees"
+        },
+        "professionalDevelopment": {
+          "title": "Professional Development",
+          "hasProfessionalDevelopment": "Do you have professional development expenses?",
+          "expenses": "Professional Development Expenses"
+        },
+        "otherInsuranceExpenses": {
+          "title": "Other Insurance Expenses",
+          "hasOtherInsuranceExpenses": "Do you have other insurance expenses?",
+          "expenses": "Other Insurance Expenses"
+        }
+      },
+      "extraordinaryExpenses": {
+        "title": "Extraordinary Expenses",
+        "medicalExpenses": {
+          "title": "Medical Expenses",
+          "hasMedicalExpenses": "Do you have medical expenses?",
+          "expenses": "Medical Expenses"
+        },
+        "rehabilitationCosts": {
+          "title": "Cure and Rehabilitation Costs",
+          "hasRehabilitationCosts": "Do you have cure and rehabilitation costs?",
+          "expenses": "Cure and Rehabilitation Costs"
+        },
+        "careCosts": {
+          "title": "Care Costs",
+          "hasCareCosts": "Do you have care costs?",
+          "expenses": "Care Costs"
+        },
+        "disabilityExpenses": {
+          "title": "Disability-Related Expenses",
+          "hasDisabilityExpenses": "Do you have disability-related expenses?",
+          "expenses": "Disability-Related Expenses"
+        },
+        "funeralCosts": {
+          "title": "Funeral Costs",
+          "hasFuneralCosts": "Do you have funeral costs?",
+          "expenses": "Funeral Costs"
+        },
+        "relativesSupportCosts": {
+          "title": "Support Costs for Needy Relatives",
+          "hasRelativesSupportCosts": "Do you have support costs for needy relatives?",
+          "expenses": "Support Costs for Needy Relatives"
+        },
+        "divorceCosts": {
+          "title": "Divorce Costs",
+          "hasDivorceCosts": "Do you have divorce costs?",
+          "expenses": "Divorce Costs"
+        }
+      },
+      "insurancePremiums": {
+        "title": "Insurance Premiums",
+        "statutoryHealthInsurance": {
+          "title": "Statutory Health",
+          "longterm": "Long-Term Care Insurance"
+        },
+        "privateHealthInsurance": {
+          "title": "Private Health",
+          "longterm": "Long-Term Care Insurance"
+        },
+        "statutoryPensionInsurance": {
+          "title": "Statutory Pension Insurance Contributions",
+          "employer": "Employer",
+          "employee": "Employee"
+        },
+        "privatePensionInsurance": {
+          "title": "Private Pension Insurance Contributions (Rürup Pension)",
+          "unemploymentInsurance": "Unemployment Insurance Contributions",
+          "accidentLiabilityInsurance": "Accident and Liability Insurance Contributions",
+          "disabilityInsurance": "Disability Insurance Contributions",
+          "termLifeInsurance": "Term Life Insurance Contributions"
+        }
+      },
+      "craftsmenServices": {
+        "title": "Did you hire craftsmen services?",
+        "hasMaintenancePayments": "Did you make maintenance payments?",
+        "maintenanceRecipient": "Recipient of Maintenance Payments",
+        "maintenanceAmount": "Amount of Maintenance Payments",
+        "invoiceCraftsmenServices": "Please upload the invoice for craftsmen services",
+        "householdServices": "Household Services",
+        "craftsmenServices": "Craftsmen Services",
+        "gardeningServices": "Gardening and Winter Services",
+        "cleaningServices": "Apartment and Window Cleaning",
+        "caretakerServices": "Caretaker and House Cleaning Services",
+        "householdCareCosts": "Care Costs for Children or Persons in Need of Care",
+        "householdSupportServices": "Costs for Household-Related Care and Support Services",
+        "chimneySweepFees": "Chimney Sweep Fees",
+        "emergencySystemCosts": "Costs for Household Emergency Systems"
+      },
+      "rentalAndLeasing": {
+        "title": "Rental & Leasing",
+        "ownerFirstName": "First Name",
+        "ownerLastName": "Last Name",
+        "address": "Address",
+        "purchaseDate": "Date of Purchase",
+        "documents": {
+          "rentalContracts": "Rental Contracts",
+          "annualStatements": "Annual Property Management Statements",
+          "operatingCosts": "Operating Cost Statements",
+          "propertyTax": "Property Tax Assessments",
+          "loanContracts": "Loan Contracts and Interest Certificates",
+          "repairBills": "Repair and Maintenance Bills",
+          "craftsmenBills": "Craftsmen Bills",
+          "renovationProof": "Renovation and Modernization Proof",
+          "insurancePremiums": "Insurance Premiums (e.g., Building Insurance)",
+          "brokerFees": "Broker Fees",
+          "rentalIncome": "Rental Income Overview",
+          "vacancyProof": "Vacancy Proof (e.g., Advertisements, Broker Assignments)",
+          "managementCosts": "Property Management Costs",
+          "depreciationProof": "Depreciation Documentation (e.g., Purchase Contract, Appraisals)"
+        }
+      }
+    },
+    "signature": {
+      "title": "Signature",
+      "declaration": "Declaration",
+      "placeAndDate": "Place and Date",
+      "place": "Place",
+      "date": "Date",
+      "signature": "Signature",
+      "consent1": "I declare that the information provided in this tax return is true and correct to the best of my knowledge and belief. All attached documents and receipts are complete and authentic. I understand that I may be held criminally liable for false or omitted information.",
+      "consent2": "I consent to my data being processed and stored for the purpose of tax return preparation. The processing will be carried out in compliance with applicable data protection regulations."
+    }
+    
+  }
+} 
