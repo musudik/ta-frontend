@@ -96,7 +96,7 @@ interface TaxFormData {
 import axios from 'axios';
 
 // API base URL - Use import.meta.env for Vite instead of process.env
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://tax-adviser-backend.onrender.com/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 /**
  * IMPORTANT: This service has been deprecated in favor of the TaxFormService.

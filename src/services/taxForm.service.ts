@@ -3,7 +3,7 @@ import { TaxForm, TaxFormResponse } from '../types/taxForm';
 
 const API_URL = import.meta.env.VITE_API_URL 
   ? `${import.meta.env.VITE_API_URL}/tax-forms` 
-  : 'https://tax-adviser-test.replit.app/api/tax-forms';
+  : '/api/tax-forms';
 
 // Helper to get the auth token
 const getAuthToken = () => {

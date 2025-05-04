@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { LoginCredentials, RegisterData, AuthResponse, User, UserRole } from '../types/auth';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://tax-adviser-test.replit.app/api';
+const API_URL = import.meta.env.VITE_API_URL || '/api';
 
 // Function to decode JWT token
 const decodeToken = (token: string): Partial<User> => {

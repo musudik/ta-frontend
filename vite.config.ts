@@ -14,6 +14,13 @@ export default defineConfig({
     port: 5173,
     host: true,
     allowedHosts: ["tax-adviser.replit.app", "tax-adviser-test.replit.app"],
+    proxy: {
+      '/api': {
+        target: 'https://tax-adviser-test.replit.app',
+        changeOrigin: true,
+        secure: true
+      }
+    }
   },
   build: {
     rollupOptions: {
