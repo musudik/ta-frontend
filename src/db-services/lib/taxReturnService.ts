@@ -95,8 +95,13 @@ interface TaxFormData {
 
 import axios from 'axios';
 
-// Use '/api' without domain to utilize the proxy
-const API_BASE_URL = '/api';
+// Determine if we're in development (localhost) or production
+const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
+// In development, use the proxy. In production, use direct API URL
+const API_BASE_URL = isDevelopment 
+  ? '/api' 
+  : 'https://tax-adviser-test.replit.app/api';
 
 /**
  * IMPORTANT: This service has been deprecated in favor of the TaxFormService.

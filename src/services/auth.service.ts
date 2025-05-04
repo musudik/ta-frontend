@@ -1,8 +1,13 @@
 import axios from 'axios';
 import { LoginCredentials, RegisterData, AuthResponse, User, UserRole } from '../types/auth';
 
-// Use '/api' without domain to utilize the proxy
-const API_URL = '/api';
+// Determine if we're in development (localhost) or production
+const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
+// In development, use the proxy. In production, use direct API URL
+const API_URL = isDevelopment 
+  ? '/api' 
+  : 'https://tax-adviser-test.replit.app/api';
 
 // Function to decode JWT token
 const decodeToken = (token: string): Partial<User> => {

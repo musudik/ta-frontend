@@ -1,8 +1,13 @@
 import axios from 'axios';
 import { TaxForm, TaxFormResponse } from '../types/taxForm';
 
-// Use '/api/tax-forms' without domain to utilize the proxy
-const API_URL = '/api/tax-forms';
+// Determine if we're in development (localhost) or production
+const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
+// In development, use the proxy. In production, use direct API URL
+const API_URL = isDevelopment 
+  ? '/api/tax-forms' 
+  : 'https://tax-adviser-test.replit.app/api/tax-forms';
 
 // Helper to get the auth token
 const getAuthToken = () => {
